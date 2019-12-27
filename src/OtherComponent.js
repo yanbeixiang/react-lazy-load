@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
-const OtherComponent = () => (
-  <div>
-    Other Component
-  </div>
-)
+const OtherComponent = () => <div>Other Component</div>;
 
-export default OtherComponent
+export default OtherComponent;

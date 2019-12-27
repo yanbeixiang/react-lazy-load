@@ -3,7 +3,7 @@ const OtherComponent = lazy(() => import("./OtherComponent"));
 
 const MyComponent = () => (
   <div>
-    <Suspense callBack={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading...</div>}>
       <OtherComponent />
     </Suspense>
   </div>
